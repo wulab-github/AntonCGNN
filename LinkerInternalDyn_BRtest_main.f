@@ -12,11 +12,11 @@
       integer ndimen
       parameter (ndimen=6)
       integer time_scale_max
-      parameter (time_scale_max=1)
+      parameter (time_scale_max=10)
       integer time_scale_initial
-      parameter (time_scale_initial=91)
+      parameter (time_scale_initial=1)
       integer time_scale_trial
-      parameter (time_scale_trial=9)
+      parameter (time_scale_trial=0)
       integer nsample
       parameter (nsample=2*(ntrj-time_scale_max)-1)
       integer nsample2
