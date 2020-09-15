@@ -14,7 +14,9 @@ The datasets of the structural ensembles with the vector-based representation co
 The source codes that uses the back-propagation neural network algorithm to classify the dynamics between different linkers are in the Fortran77 format.
 They are listed as follows:
     1: LinkerInternalDyn_BRtest_main.f is the main program for neural-network-based classification using the six datasets listed above as inputs
+    
     2: sub_BP_learn_v2.f is the subroutine for neural network training process
+    
     3: sub_BP_recall_v2.f is the subroutine for the testing after neural netowork training
     
 This program also provide the compiled excutable file: BPNNtest
