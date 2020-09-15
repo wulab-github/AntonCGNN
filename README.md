@@ -4,15 +4,23 @@ all the datasets and source codes that used to analyze the MD simulation traject
 generated from Anton2 for MHC/PD-L1 bispecific biologics with all six types of linkers.
 
 The datasets of the structural ensembles with the vector-based representation converted from Anton2 MD simulations are listed as follows:
+    
     1: TwoModuleInterCoord_GS15.dat
+    
     2: TwoModuleInterCoord_GS30.dat
+    
     3: TwoModuleInterCoord_PLP15.dat
+    
     4: TwoModuleInterCoord_PLPII15.dat
+    
     5: TwoModuleInterCoord_PLPII30.dat
+    
     6: TwoModuleInterCoord_PLrigid.dat  
     
 The source codes that uses the back-propagation neural network algorithm to classify the dynamics between different linkers are in the Fortran77 format.
 They are listed as follows:
+
+
     1: LinkerInternalDyn_BRtest_main.f is the main program for neural-network-based classification using the six datasets listed above as inputs
     
     2: sub_BP_learn_v2.f is the subroutine for neural network training process
