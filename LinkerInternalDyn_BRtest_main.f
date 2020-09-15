@@ -12,7 +12,7 @@
       integer ndimen
       parameter (ndimen=6)
       integer time_scale_max
-      parameter (time_scale_max=10)
+      parameter (time_scale_max=100)
       integer time_scale_initial
       parameter (time_scale_initial=1)
       integer time_scale_trial
